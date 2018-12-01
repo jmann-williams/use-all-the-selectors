@@ -1,0 +1,29 @@
+html {
+  background-color: #fdf6e3;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  font-size: 1.5rem;
+}
+
+footer {
+  font-size: 1.5rem;
+}
+
+nav {
+  font-family: sans-serif;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  background-color: #eee8d5;
+}
