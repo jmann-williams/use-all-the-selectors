@@ -5,9 +5,6 @@ html {
 }
 
 body {
-  margin: 0;
-}
-
 header {
   font-size: 1.5rem;
 }
@@ -26,4 +23,56 @@ nav {
 
 .wrapper {
   background-color: #eee8d5;
+}
+
+#contents {
+  color: #93a1a1;
+}
+
+#favs {
+  color: #93a1a1;
+}
+
+#facts {
+  color: #93a1a1;
+}
+
+#types {
+  color: #93a1a1;
+}
+
+div.dfn {
+  background-color: #b58900;
+}
+
+p + strong {
+  color: #fff;
+}
+
+a:not(.no-highlight) {
+  background-color: #719e07;
+}
+
+li [rel="external"] {
+  background-color: #2694d8;
+}
+
+ol li:nth-child(1) {
+  color: #719e47;
+}
+
+ol li:nth-child(3) {
+  color: #2aa198;
+}
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types li:nth-of-type(3n) {
+  background-color: #d04b16;
 }
